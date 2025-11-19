@@ -1,4 +1,4 @@
-import User from "../models/User.js";
+import User from "../models/Users.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
 
@@ -66,3 +66,5 @@ export const getProfile = async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 };
+
+
