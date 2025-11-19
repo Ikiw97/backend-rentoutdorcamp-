@@ -9,5 +9,3 @@ router.post("/login", login);
 router.get("/me", protect, getProfile);
 
 export default router;
-
-
